@@ -5,3 +5,22 @@
 } */
 
 
+.background {
+    background-color: black;
+    margin: 0;
+    padding:0;
+}
+
+p {
+    padding: 10px;
+    color: azure;
+}
+
+a,h4 {
+    color: azure;
+}
+
+#mainimg {
+    padding: 1px;
+    margin-right: 10px;
+}

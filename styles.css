@@ -10,19 +10,13 @@ p {
     color: azure;
 }
 
-a  {
-    color: rgb(20, 216, 216);
-}
-
-
-
 #mainimg {
     padding: 1px;
     margin-right: 10px;
 }
 
 #navi {
-    background-color: rgb(53, 47, 47);
+    background-color: rgb(19, 18, 20);
     margin-bottom: 20px;
 }
 
@@ -30,17 +24,7 @@ a  {
    background-color: blueviolet;
 }
 
-  
-  h4 {
+h4 {
     color: azure;
 }
 
-.navbar-default  {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
-}
-
-/* .navbar-toggler {
-    background-color: aqua;
-    color: black;
-} */

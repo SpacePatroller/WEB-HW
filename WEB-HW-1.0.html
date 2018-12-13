@@ -13,46 +13,54 @@
     <title>Hello, world!</title>
 </head>
 
-<body class="background">
+<body id="background">
 
     <div class="container-fluid">
         <!--Nav Bar-->
-
-        <div class="row " class="nav">
-            <div class="col-sm-12 col-md-8 col-lg-3">
-                <ul class="nav justify-content-left">
-                    <li class="nav-item ">
-                        <a class="nav-link active " href="# ">Lattitude</a>
-                    </li>
-                </ul>
+        
+            <div class="row " id="navi">
+                <div class="col-sm-12 col-md-8 col-lg-3">
+                    <ul class="nav justify-content-left">
+                        <li class="nav-item ">
+                            <a id="title" class="nav-link active " href="# ">Lattitude</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-9 ">
+                    <ul class="nav justify-content-end ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Plots</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Max Temperature</a>
+                                <a class="dropdown-item" href="#">Humidty</a>
+                                <a class="dropdown-item" href="#">Cloudiness</a>
+                                <a class="dropdown-item" href="#">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="# ">Comparison</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  " href="# ">Data</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-9">
-                <ul class="nav justify-content-end ">
-                    <li class="nav-item ">
-                        <a class="nav-link " href="# ">Plots</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="# ">Comparison</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link disabled " href="# ">Data</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+       
 
         <!-- Main Summary Box -->
 
         <div class="row ">
-            <div class="col-sm-12 col-md-4 col-lg-6 ">
-                <h4>Summary: Lattitude vs.X</h4>
+            <div class="col-sm-12 col-md-8 col-lg-4 ">
+                <h4>Summary: Lattitude vs. X</h4>
 
                 <img src="Instructions/Resources/assets/images/Fig1.png" class="img-responsive" width="75%" align=left
                     id="mainimg">
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy
-                    text ever since the 275s, when an unknown printer took a galley of type and scrambled
+                    text ever since the 350s, when an unknown printer took a galley of type and scrambled
                     it to make a
                     type
                     specimen book. It has survived not only five centuries, but also the leap into electronic
@@ -67,35 +75,27 @@
 
             <!-- 4 pictures box -->
 
-            <div class="col-sm-1 col-md-12 col-lg-4 ">
+            <div class="col-sm-12 col-md-12 col-lg-4 offset-lg-2 ">
+
                 <h4>Visualizations</h4>
-
-
                 <div class="row ">
 
                     <a href="">
-                        <img src="Instructions/Resources/assets/images/Fig1.png" width="275">
+                        <img src="Instructions/Resources/assets/images/Fig1.png" width="300">
                     </a>
                     <a href="">
-                        <img src="Instructions/Resources/assets/images/Fig2.png" width="275">
+                        <img src="Instructions/Resources/assets/images/Fig2.png" width="300">
                     </a>
 
                     <a href="">
-                        <img src="Instructions/Resources/assets/images/Fig3.png" width="275">
+                        <img src="Instructions/Resources/assets/images/Fig3.png" width="300">
                     </a>
                     <a href="">
-                        <img src="Instructions/Resources/assets/images/Fig4.png" width="275">
+                        <img src="Instructions/Resources/assets/images/Fig4.png" width="300">
                     </a>
-
-
                 </div>
-
-
-
             </div>
         </div>
-
-
     </div>
 
 

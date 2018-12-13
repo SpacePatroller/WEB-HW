@@ -1,9 +1,3 @@
-/* .nav {
-   
-    background-color: aquamarine;
-   
-} */
-
 
 #background {
     background-color: black;
@@ -16,9 +10,11 @@ p {
     color: azure;
 }
 
-a {
-    color: azure;
+a  {
+    color: rgb(20, 216, 216);
 }
+
+
 
 #mainimg {
     padding: 1px;
@@ -32,12 +28,19 @@ a {
 
 #title {
    background-color: blueviolet;
-   
-  
 }
-
 
   
   h4 {
     color: azure;
 }
+
+.navbar-default  {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+/* .navbar-toggler {
+    background-color: aqua;
+    color: black;
+} */

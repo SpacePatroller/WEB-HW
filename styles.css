@@ -1,13 +1,13 @@
 
 #background {
-    background-color: black;
+    background-color: rgb(153, 148, 148);
     margin: 0;
     padding:0;
 }
 
 p {
     padding: 10px;
-    color: azure;
+    color: rgb(39, 223, 223);
 }
 
 #mainimg {
@@ -16,10 +16,11 @@ p {
 }
 
 #navi {
-    /* background-color: rgb(19, 18, 20); */
+    background-color: rgb(19, 18, 20);
     margin-bottom: 20px;
     margin-top: 20px;
     border: 10px;
+    
   
 }
 
@@ -28,24 +29,67 @@ p {
 }
 
 h4 {
-    color: azure;
+    color: rgb(40, 211, 211);
 }
 
 @media (max-width: 504px) {
     
     .navbar {
-      background-color: purple;
+      background-color: rgb(172, 167, 167);
       width:100%;
-    
+      border-bottom: 1040px;
+      
       
     } 
+
+    .lat {
+      
+        
+        padding:5px;
+    }
+    
    
-  
   }
 
-.navbar {
-    height: 50px;
+.lat {
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: soft-light;
+    /* margin-left: 5px; */
+    margin-top:20px;
+    padding-top:50px;
+    padding-left:50px;
+    padding-bottom: 5px;
+    height: 350px;
+    
+
+}
+
+.lat1 {
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: soft-light;
+    margin-left: 40px;
+    margin-top:20px;
+    padding-top:10px;
 }
 
 
-  
+.card {
+    border: "10px";
+    margin:20px;
+    color: black;
+}
+
+
+.card p{
+    border: "10px";
+    /* width:"100px"; */
+    color: black;
+}
+
+.table {
+    padding:10px;
+}
+
+em {
+    color: aqua;
+}

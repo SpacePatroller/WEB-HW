@@ -31,3 +31,21 @@ h4 {
     color: azure;
 }
 
+@media (max-width: 504px) {
+    
+    .navbar {
+      background-color: purple;
+      width:100%;
+    
+      
+    } 
+   
+  
+  }
+
+.navbar {
+    height: 50px;
+}
+
+
+  

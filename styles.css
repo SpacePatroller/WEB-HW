@@ -1,6 +1,6 @@
 
 #background {
-    background-color: rgb(153, 148, 148);
+    background-color: rgb(191, 218, 218);
     margin: 0;
     padding:0;
 }
@@ -20,8 +20,10 @@ p {
     margin-bottom: 20px;
     margin-top: 20px;
     border: 10px;
-    
-  
+    border:inset;
+    border-color: rgb(150, 144, 155);
+    border-width: 2px;
+   
 }
 
 #title {
@@ -32,25 +34,6 @@ h4 {
     color: rgb(40, 211, 211);
 }
 
-@media (max-width: 504px) {
-    
-    .navbar {
-      background-color: rgb(172, 167, 167);
-      width:100%;
-      border-bottom: 1040px;
-      
-      
-    } 
-
-    .lat {
-      
-        
-        padding:5px;
-    }
-    
-   
-  }
-
 .lat {
     background-color: rgb(255, 255, 255);
     background-blend-mode: soft-light;
@@ -60,8 +43,9 @@ h4 {
     padding-left:50px;
     padding-bottom: 5px;
     height: 350px;
-    
-
+    border:inset;
+    border-color: rgb(103, 116, 136);
+    border-width: 2px;
 }
 
 .lat1 {
@@ -70,15 +54,17 @@ h4 {
     margin-left: 40px;
     margin-top:20px;
     padding-top:10px;
-}
+    border-style:inset;
+    border-color: rgb(103, 116, 136);
+    border-width: 2px;
 
+}
 
 .card {
     border: "10px";
     margin:20px;
     color: black;
 }
-
 
 .card p{
     border: "10px";
@@ -90,6 +76,78 @@ h4 {
     padding:10px;
 }
 
-em {
-    color: aqua;
+img:hover {
+    border: solid;
+    border-width: 1px;
+    color: black;
+}
+
+
+.comp p , h4 {
+    color:black;
+}
+
+.compsub {
+
+    border-style:inset;
+    border-color: rgb(38, 37, 39);
+    border-width: 2px;
+
+}
+
+/* Media  */
+
+@media (max-width: 504px) {
+    
+    .navbar {
+      background-color: rgb(85, 88, 88);
+    } 
+
+    .lat {
+        background-color: rgb(255, 255, 255);
+        background-blend-mode: soft-light;
+        margin-left: 5px;
+        margin-top:20px;
+        padding-top:50px;
+        padding-left:50px;
+        margin:20px;
+        padding-bottom: 5px;
+        height: 350px;
+        border:inset;
+        border-color: rgb(32, 29, 29);
+        border-width: 2px;
+    
+    }
+    
+    .lat1 {
+        background-color: rgb(255, 255, 255);
+        background-blend-mode: soft-light;
+        margin-left: 40px;
+        margin-top:20px;
+        margin:20px;
+        padding-top:10px;
+        border-style:inset;
+        border-color: rgb(38, 37, 39);
+        border-width: 2px;
+    
+    }
+
+  }
+
+  @media (max-width: 1000px) {
+    
+    .lat {
+        background-color: rgb(255, 255, 255);
+        background-blend-mode: soft-light;
+        height: 100%;
+       
+  }
+
+  .lat1 {
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: soft-light;
+    height: 100%;
+    margin:10px;
+
+}
 }
